@@ -42,3 +42,9 @@ Additional Resources
 * [NPM Documentation](https://docs.npmjs.com)
 * [Art of Node](https://github.com/maxogden/art-of-node)
 * [mongodbschool](http://mongodbschool.io)
+
+[License](LICENSE)
+------------------
+
+Source code distributed under the MIT license. Text and other assets copyright
+General Assembly, Inc., all rights reserved.
