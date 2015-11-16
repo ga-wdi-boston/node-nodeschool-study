@@ -12,26 +12,48 @@ Node is JavaScript without the browser. Since you're already familiar with JavaS
 * [how-to-npm](https://github.com/npm/how-to-npm): Introduction to NPM
 * [scope-chains-closures](https://github.com/jesstelford/scope-chains-closures): Scope, Chains, and Closures (optional, challenging)
 * [stream-adventure](https://github.com/substack/stream-adventure): Introduction to Node streams (optional, challenging)
-
-If you're constrained for time this weekend or just want to spend it relaxing, forgo the optional exercises and focus on getting the basics down. Next weekend, plan on spending a little time with [expressworks](https://github.com/azat-co/expressworks).
+* [expressworks](https://github.com/azat-co/expressworks): Introduction to Express
 
 Take a moment to browse the [nodeschool](http://nodeschool.io/) site. Make a note of any workshops you might want to take in the future. (Note: The term "workshop" is a bit confusing. "Workshops" at nodeschool are modules you install and run locally on your system. If you want to attend a nodeschool meetup, you'll want to browse "Events".)
 
-When you're ready to begin a workshop, just install it globally with `npm` and start the workshop via the command line. For example, to install [learnyounode](https://github.com/workshopper/learnyounode), use `npm install -g learnyounode`, then begin the workshop with `learnyounode`. We recommend keeping your work in a directory named after the workshop.
+When you're ready to begin a workshop, just install it globally with `npm` and start the workshop via the command line. For example, to install [learnyounode](https://github.com/workshopper/learnyounode), use `npm install -g learnyounode`, then begin the workshop with `learnyounode`.
 
-For extra-super-bonus points, initialize a git repository in your working folder and commit early and often. Use commit messages as your learning journal, making notes of challenges and what you learned by completing each exercise ([example](https://github.com/jrhorn424/learnyounode/commit/5db673a16d4af82d3c5a80240edeb93b0e4dbd0c)). Then, push the repository to GitHub so future employers can get an idea of your learning process (not to mention your tenacity!).
+Instructions
+------------
 
-To install all the recommended courses:
+1. Install `learnyounode`
 
-```
-npm install -g learnyounode how-to-npm learnyoumongo
-```
+    ```
+    npm install -g learnyounode
+    ```
 
-To install the recommended and optional courses:
+1. Fork and clone this repository.
+1. Edit your fork's README. ([example](https://github.com/jrhorn424/javascripting))
+1. Add and commit the README and push changes to your fork.
+1. Move to the `learnyounode` directory. You will work here as you complete the workshop.
+1. Run `learnyounode` from the command line and follow the instructions.
+1. As you work, commit early and often.
 
-```
-npm install -g learnyounode how-to-npm learnyoumongo javascripting scope-chains-closures stream-adventure
-```
+Use commit messages as your learning journal, making notes of challenges and what you learned by completing each exercise ([example](https://github.com/jrhorn424/learnyounode/commit/5db673a16d4af82d3c5a80240edeb93b0e4dbd0c)).
+
+Gotchas
+-------
+
+The `learnyounode` workshop suggests you add your code to a single file, `program.js`, that is updated with each exercise. Instead, you should create a new file for exercise and run `learnyounode run` and `learnyounode verify` against the exercise file.
+
+Deliverables
+------------
+
+You are required to push your changes frequently, based on the following schedule. Each evening, push your changes and open a new pull request against this repository. Your submissions will be checked for completeness, **not** for accuracy. That's what `learnyounode verify` is for.
+
+| Workshop       | Due (`t + 0 === today`)       |
+| -------------- | ----------------------------- |
+| `learnyounode` | Exercises 00--06 due `t + 0`  |
+| `learnyounode` | Exercises 07--13 due `t + 4`  |
+| `how-to-npm`   | Exercises 00--04 due `t + 0`  |
+| `how-to-npm`   | Exercises 05--16 due `t + 4`  |
+| `expressworks` | Exercises 00--01 due `t + 4`  |
+| `expressworks` | Exercises 03--07 due `t + 11` |
 
 Additional Resources
 --------------------
