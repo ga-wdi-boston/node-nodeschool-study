@@ -43,6 +43,8 @@ Gotchas
 
 The `learnyounode` workshop suggests you add your code to a single file, `program.js`, that is updated with each exercise. Instead, you should create a new file for exercise and run `learnyounode run` and `learnyounode verify` against the exercise file.
 
+You will need to create your own file structure in all directories except `learnyounode`. Each exercise should have its own file.
+
 Deliverables
 ------------
 
