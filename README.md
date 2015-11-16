@@ -5,7 +5,7 @@ Node: Self Study
 
 Node is JavaScript without the browser. Since you're already familiar with JavaScript, you shouldn't think of learning Node as learning a new language. Instead, you'll be learning a new set of APIs that use JavaScript to get work done outside the browser. That means you won't have access to browser APIs, like manipulating the DOM, but you will still have events and asynchronous capabilities. Additionally, Node provides excellent utilities for working with the file system, making web requests, and processing incoming web requests.
 
-[nodeschool](http://nodeschool.io/) is an excellent free and open-source resource for learning Node. This weekend, we recommend you complete the following workshops to become familiar with Node:
+[nodeschool](http://nodeschool.io/) is an excellent free and open-source resource for learning Node. We recommend you complete the following workshops to become familiar with Node:
 
 * [javascripting](https://github.com/sethvincent/javascripting): JavaScript review (optional)
 * [learnyounode](https://github.com/workshopper/learnyounode): Introduction to Node
