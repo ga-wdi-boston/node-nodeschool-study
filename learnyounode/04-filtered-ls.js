@@ -5,4 +5,4 @@ fs.readdir(process.argv[2], function(err, list){
       if (file.split('.')[1] === process.argv[3])
         console.log(file);
     });
-})
+});
