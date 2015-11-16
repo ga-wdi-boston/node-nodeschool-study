@@ -36,6 +36,8 @@ Instructions
 
 Use commit messages as your learning journal, making notes of challenges and what you learned by completing each exercise ([example](https://github.com/jrhorn424/learnyounode/commit/5db673a16d4af82d3c5a80240edeb93b0e4dbd0c)).
 
+Do something similar for the other required workshops. Repeat the last three steps. Do not create another fork or clone; all your work can be done from this repository.
+
 Gotchas
 -------
 
