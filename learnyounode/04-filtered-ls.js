@@ -6,9 +6,9 @@ var fileType = process.argv[3];
 
 fs.readdir(dir, function(err, list){
 
-  list.forEach(function(el, index, list){
-    if ((path.extname(list[index])) === ("." + fileType)) {
-      console.log(el);
+  list.forEach(function(file){
+    if ((path.extname(file)) === ("." + fileType)) {
+      console.log(file);
     }
   });
 
