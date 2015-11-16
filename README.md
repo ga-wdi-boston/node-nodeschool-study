@@ -10,7 +10,6 @@ Node is JavaScript without the browser. Since you're already familiar with JavaS
 * [javascripting](https://github.com/sethvincent/javascripting): JavaScript review (optional)
 * [learnyounode](https://github.com/workshopper/learnyounode): Introduction to Node
 * [how-to-npm](https://github.com/npm/how-to-npm): Introduction to NPM
-* [learnyoumongo](https://github.com/evanlucas/learnyoumongo): Introduction to MongoDB
 * [scope-chains-closures](https://github.com/jesstelford/scope-chains-closures): Scope, Chains, and Closures (optional, challenging)
 * [stream-adventure](https://github.com/substack/stream-adventure): Introduction to Node streams (optional, challenging)
 
