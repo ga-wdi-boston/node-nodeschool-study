@@ -1,0 +1,17 @@
+Here's my package.json file:
+
+{
+  "name": "mkutter72",
+  "version": "1.0.0",
+  "description": "New project test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Kutter",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "/Users/mkutter/WDI/labs/node-learnyounode-study/how-to-npm/dev_environ/.git/"
+  }
+}

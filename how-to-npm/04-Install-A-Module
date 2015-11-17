@@ -1,0 +1,10 @@
+Let's start out by installing the "@linclark/pkg" module.
+
+Run `how-to-npm verify` once you're done.
+~/WDI/labs/node-learnyounode-study/how-to-npm/dev_environ (master)$ how-to-npm verify
+Congratulations! You installed it.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@     YOUR SOLUTION IS CORRECT!     @@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
