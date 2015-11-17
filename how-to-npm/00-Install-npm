@@ -1,0 +1,12 @@
+$ how-to-npm verify
+verifying that npm is installed...
+You have version 3.4.0 installed.  Great!
+Now let's see what the latest version is... wait for it...
+The latest npm is: 3.4.0
+Congratulations!
+You have a recent version of npm installed!
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@     YOUR SOLUTION IS CORRECT!     @@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
