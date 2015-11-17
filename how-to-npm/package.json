@@ -1,0 +1,20 @@
+{
+  "name": "@kelvinma/how-to-npm",
+  "version": "1.0.0",
+  "description": "How To npm workshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node-learnyounode-study"
+  },
+  "keywords": [
+    "npm",
+    "workshop",
+    "tutorial"
+  ],
+  "author": "Kelvin Ma",
+  "license": "ISC"
+}
