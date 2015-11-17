@@ -1,0 +1,14 @@
+{
+  "name": "randompackage",
+  "version": "1.0.0",
+  "description": "tutorial package for how to npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "baz1389",
+  "license": "MIT"
+}
