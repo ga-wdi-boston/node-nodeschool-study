@@ -1,0 +1,14 @@
+{
+  "name": "@me/how-to-mpn",
+  "version": "1.0.0",
+  "description": "my test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "verify"
+  },
+  "keywords": [
+    "how"
+  ],
+  "author": "edie shimel",
+  "license": "ISC"
+}
