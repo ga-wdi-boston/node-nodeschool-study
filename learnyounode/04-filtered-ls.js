@@ -4,7 +4,7 @@
 // List of files should be printed to console, one file per line. Must use async
 
 var fs = require('fs');
-var path = require('path')
+var path = require('path');
 
 // Async readdir, Reads contents of directory.
 // list is an array of filename strings
