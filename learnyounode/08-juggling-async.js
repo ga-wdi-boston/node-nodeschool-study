@@ -72,22 +72,6 @@ http.get(process.argv[2], function(response) {
   //    for (var i = 0; i < 3; i++)
   //      httpGet(i)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  // This problem is the same as the previous problem (HTTP COLLECT) in that
  //  you need to use http.get(). However, this time you will be provided with
  //  three URLs as the first three command-line arguments.
