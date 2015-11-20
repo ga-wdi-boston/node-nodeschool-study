@@ -6,8 +6,8 @@ var server = net.createServer(function(socket){
   //socket handling
   date = new Date()
   var year = date.getFullYear()
-  var rawMonth= date.getMonth()     // starts at 0
-  var rawDate = date.getDate()      // returns the day of month
+  var rawMonth= date.getMonth() // starts at 0
+  var rawDate = date.getDate()  // returns the day of month
   var hours = date.getHours()
   var minutes = date.getMinutes()
 

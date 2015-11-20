@@ -3,7 +3,7 @@ var path = require('path')
 
 var callback = function(err, list){
   if(err){
-    console.log(err)
+    console.error(err)
   }
   var filtered = list.filter(function(fileName){
     return path.extname(fileName) === "." + process.argv[3]
