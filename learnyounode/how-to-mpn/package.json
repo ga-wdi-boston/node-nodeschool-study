@@ -1,6 +1,6 @@
 {
   "name": "@me/how-to-mpn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "my test project",
   "main": "index.js",
   "scripts": {
