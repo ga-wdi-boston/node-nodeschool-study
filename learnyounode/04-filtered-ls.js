@@ -41,8 +41,8 @@ var fs = require('fs');
 var path = require('path');
 
 fs.readdir(process.argv[2], function (err, fileNames) {
-  fileNames.filter(function (fileNames) {
-    return path.extname(fileNames) === '.' + process.argv[3] ;//extension of file names
+  fileNames.filter(function (files) {
+    return path.extname(files) === '.' + process.argv[3] ;//extension of file names
   }).forEach(function (fileNames) {
     console.log(fileNames);
   });

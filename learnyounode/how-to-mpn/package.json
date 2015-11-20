@@ -4,11 +4,19 @@
   "description": "my test project",
   "main": "index.js",
   "scripts": {
-    "test": "verify"
+    "test": "node test.js"
   },
   "keywords": [
     "how"
   ],
   "author": "edie shimel",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "eshimel"
+  }
 }
