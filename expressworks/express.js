@@ -1,7 +1,8 @@
 var express = require('express');
 var app = express();
 var path = require('path');
-var bodyparser = require('body-parser')
+var bodyparser = require('body-parser');
+var fs = require('fs');
 
 app.use(bodyparser.urlencoded({extended: false}));
 app.use(express.static(process.argv[3] || path.join(__dirname, 'public')));
@@ -30,4 +31,12 @@ app.get('/search', function(req, res){
   res.send(query);
 })
 
+app.get('/books', function(req, res){
+  fs.readFile(process.argv[3], function(err, data){
+    if (err) {
+      console.error(err);
+    }
+    res.json(JSON.parse(data));
+  });
+})
 app.listen(process.argv[2]);
