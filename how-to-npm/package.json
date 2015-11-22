@@ -1,14 +1,14 @@
 {
   "name": "@kelvinma/how-to-npm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "How To npm workshop",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
-    "url": "node-learnyounode-study"
+    "url": "https://github.com/kelvinma/node-learnyounode-study/tree/lesson"
   },
   "keywords": [
     "npm",
@@ -16,5 +16,6 @@
     "tutorial"
   ],
   "author": "Kelvin Ma",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {}
 }
