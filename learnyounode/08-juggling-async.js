@@ -7,45 +7,51 @@ var collect1 = '';
 var collect2 = '';
 var collect3 = '';
 
-http.get(process.argv[2], function (res) {
-  res.setEncoding('utf8');
-  res.on("data", function (data) {
-    collect1 += data;
-  });
-  res.on("error", function (err) {
-    console.log("Sever Error!", err);
-  });
-  res.on("end", function (end) {
-  });
-}); // end http.get 1
-
-http.get(process.argv[3], function (res) {
-  res.setEncoding('utf8');
-  res.on("data", function (data) {
-    collect2 += data;
-  });
-  res.on("error", function (err) {
-    console.log("Sever Error!", err);
-  });
-  res.on("end", function (end) {
-  });
-}); // end http.get 2
-
-http.get(process.argv[4], function (res) {
-  res.setEncoding('utf8');
-  res.on("data", function (data) {
-    collect3 += data;
-  });
-  res.on("error", function (err) {
-    console.log("Sever Error!", err);
-  });
-  res.on("end", function (end) {
-    while (collect1 != '' && collect2 != '' && collect3 != '') {
+function read3() {
+  http.get(process.argv[4], function (res) {
+    res.setEncoding('utf8');
+    res.on("data", function (data) {
+      collect3 += data;
+    });
+    res.on("error", function (err) {
+      console.log("Sever Error!", err);
+    });
+    res.on("end", function (end) {
       console.log(collect1);
       console.log(collect2);
       console.log(collect3);
-    }
-  });
-}); // end http.get 3
+    });
+  }); // end http.get 3
+};
 
+function read2() {
+  http.get(process.argv[3], function (res) {
+    res.setEncoding('utf8');
+    res.on("data", function (data) {
+      collect2 += data;
+    });
+    res.on("error", function (err) {
+      console.log("Sever Error!", err);
+    });
+    res.on("end", function (end) {
+      read3();
+    });
+  }); // end http.get 2
+};
 
+function read1() {
+  http.get(process.argv[2], function (res) {  // response listener
+    res.setEncoding('utf8');
+    res.on("data", function (data) {  // data handler
+      collect1 += data;
+    });
+    res.on("error", function (err) {  // error handler
+      console.log("Sever Error!", err);
+    });
+    res.on("end", function (end) {  // end handler
+      read2();
+    });
+  }); // end http.get 1
+};
+
+read1(collect1);
