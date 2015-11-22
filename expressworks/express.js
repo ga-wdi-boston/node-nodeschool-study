@@ -25,4 +25,9 @@ app.put('/message/:id', function(req, res){
       .digest('hex'));
 })
 
+app.get('/search', function(req, res){
+  var query = req.query;
+  res.send(query);
+})
+
 app.listen(process.argv[2]);
