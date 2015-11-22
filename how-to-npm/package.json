@@ -1,6 +1,6 @@
 {
-  "name": "randompackage",
-  "version": "1.0.1",
+  "name": "@baz1389/how-to-npm",
+  "version": "1.0.2",
   "description": "tutorial package for how to npm",
   "main": "index.js",
   "scripts": {
@@ -13,8 +13,6 @@
   "license": "MIT",
   "repository": {
     "url": ""
-    },
-  "dependencies": {
-    "@linclark/pkg": "^1.0.2"
-  }
+  },
+  "dependencies": {}
 }
