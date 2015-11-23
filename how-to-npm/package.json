@@ -1,0 +1,15 @@
+{
+  "name": "@raq929/how-to-npm",
+  "version": "1.0.1",
+  "description": "practice file",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "repository": "https://github.com/raq929/node-learnyounode-study",
+  "license": "ISC",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
+}
