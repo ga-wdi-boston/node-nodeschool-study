@@ -1,0 +1,22 @@
+{
+  "name": "@me/how-to-mpn",
+  "version": "1.0.2",
+  "description": "my test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "how"
+  ],
+  "author": "edie shimel",
+  "license": "MIT",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "eshimel"
+  }
+}

@@ -1,0 +1,273 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/BuddySystem/.nvm/versions/node/v4.1.1/bin/node',
+1 verbose cli   '/Users/BuddySystem/.nvm/versions/node/v4.1.1/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'learnyounode' ]
+2 info using npm@2.14.4
+3 info using node@v4.1.1
+4 verbose install initial load of /Users/BuddySystem/.nvm/versions/node/v4.1.1/lib/package.json
+5 verbose readDependencies loading dependencies from /Users/BuddySystem/.nvm/versions/node/v4.1.1/lib/package.json
+6 silly cache add args [ 'learnyounode', null ]
+7 verbose cache add spec learnyounode
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'learnyounode',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'learnyounode',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed learnyounode@*
+10 verbose addNamed "*" is a valid semver range for learnyounode
+11 silly addNameRange { name: 'learnyounode', range: '*', hasData: false }
+12 silly mapToRegistry name learnyounode
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/learnyounode
+16 verbose addNameRange registry:https://registry.npmjs.org/learnyounode not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/learnyounode
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 3:24:43 PM
+20 verbose request id 016ea8cf0af5d873
+21 verbose etag "AL4DQOGZMHEUBFMLZ9WDU74PM"
+22 http request GET https://registry.npmjs.org/learnyounode
+23 http 304 https://registry.npmjs.org/learnyounode
+24 silly get cb [ 304,
+24 silly get   { date: 'Mon, 16 Nov 2015 20:24:44 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     'cache-control': 'max-age=60',
+24 silly get     etag: '"AL4DQOGZMHEUBFMLZ9WDU74PM"',
+24 silly get     age: '0',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-atl6229-ATL',
+24 silly get     'x-cache': 'MISS',
+24 silly get     'x-cache-hits': '0',
+24 silly get     'x-timer': 'S1447705484.186879,VS0,VE82',
+24 silly get     vary: 'Accept' } ]
+25 verbose etag https://registry.npmjs.org/learnyounode from cache
+26 verbose get saving learnyounode to /Users/BuddySystem/.npm/registry.npmjs.org/learnyounode/.cache.json
+27 silly addNameRange number 2 { name: 'learnyounode', range: '*', hasData: true }
+28 silly addNameRange versions [ 'learnyounode',
+28 silly addNameRange   [ '0.0.0',
+28 silly addNameRange     '0.0.1',
+28 silly addNameRange     '0.0.2',
+28 silly addNameRange     '0.0.3',
+28 silly addNameRange     '0.0.4',
+28 silly addNameRange     '0.0.5',
+28 silly addNameRange     '0.0.6',
+28 silly addNameRange     '0.0.7',
+28 silly addNameRange     '0.0.8',
+28 silly addNameRange     '0.0.9',
+28 silly addNameRange     '0.1.0',
+28 silly addNameRange     '0.1.1',
+28 silly addNameRange     '0.2.0',
+28 silly addNameRange     '0.2.1',
+28 silly addNameRange     '0.2.2',
+28 silly addNameRange     '0.2.3',
+28 silly addNameRange     '0.2.4',
+28 silly addNameRange     '0.2.5',
+28 silly addNameRange     '0.2.6',
+28 silly addNameRange     '0.2.7',
+28 silly addNameRange     '0.2.8',
+28 silly addNameRange     '0.2.9',
+28 silly addNameRange     '0.2.10',
+28 silly addNameRange     '0.2.11',
+28 silly addNameRange     '0.2.12',
+28 silly addNameRange     '0.2.13',
+28 silly addNameRange     '0.2.14',
+28 silly addNameRange     '0.2.15',
+28 silly addNameRange     '0.2.16',
+28 silly addNameRange     '0.2.16-mimbug',
+28 silly addNameRange     '0.3.0',
+28 silly addNameRange     '0.3.1',
+28 silly addNameRange     '0.3.2',
+28 silly addNameRange     '0.3.3',
+28 silly addNameRange     '0.4.0',
+28 silly addNameRange     '0.4.1',
+28 silly addNameRange     '1.0.0-alpha01',
+28 silly addNameRange     '1.0.0',
+28 silly addNameRange     '1.0.1',
+28 silly addNameRange     '1.0.2',
+28 silly addNameRange     '1.0.3',
+28 silly addNameRange     '1.0.4',
+28 silly addNameRange     '1.0.5',
+28 silly addNameRange     '1.0.6',
+28 silly addNameRange     '1.0.7',
+28 silly addNameRange     '2.0.0',
+28 silly addNameRange     '2.0.1',
+28 silly addNameRange     '2.1.0',
+28 silly addNameRange     '2.2.0',
+28 silly addNameRange     '2.2.1',
+28 silly addNameRange     '2.2.2',
+28 silly addNameRange     '2.3.0',
+28 silly addNameRange     '2.3.1',
+28 silly addNameRange     '2.3.2',
+28 silly addNameRange     '2.3.3',
+28 silly addNameRange     '2.3.4',
+28 silly addNameRange     '2.4.0',
+28 silly addNameRange     '2.5.0',
+28 silly addNameRange     '2.6.0',
+28 silly addNameRange     '2.5.1',
+28 silly addNameRange     '2.5.2',
+28 silly addNameRange     '2.7.0',
+28 silly addNameRange     '2.7.1',
+28 silly addNameRange     '2.7.2',
+28 silly addNameRange     '3.0.0',
+28 silly addNameRange     '3.0.1',
+28 silly addNameRange     '3.1.0',
+28 silly addNameRange     '3.1.1',
+28 silly addNameRange     '3.1.2' ] ]
+29 silly addNamed learnyounode@3.1.2
+30 verbose addNamed "3.1.2" is a plain semver version for learnyounode
+31 silly cache afterAdd learnyounode@3.1.2
+32 verbose afterAdd /Users/BuddySystem/.npm/learnyounode/3.1.2/package/package.json not in flight; writing
+33 verbose afterAdd /Users/BuddySystem/.npm/learnyounode/3.1.2/package/package.json written
+34 silly install resolved [ { name: 'learnyounode',
+34 silly install resolved     version: '3.1.2',
+34 silly install resolved     description: 'Learn You The Node.js For Much Win! An intro to Node.js via a set of self-guided workshops.',
+34 silly install resolved     author:
+34 silly install resolved      { name: 'Rod Vagg',
+34 silly install resolved        email: 'rod@vagg.org',
+34 silly install resolved        url: 'https://github.com/rvagg' },
+34 silly install resolved     contributors:
+34 silly install resolved      [ [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object],
+34 silly install resolved        [Object] ],
+34 silly install resolved     repository:
+34 silly install resolved      { type: 'git',
+34 silly install resolved        url: 'git+https://github.com/rvagg/learnyounode.git' },
+34 silly install resolved     license: 'MIT',
+34 silly install resolved     dependencies:
+34 silly install resolved      { after: '~0.8.1',
+34 silly install resolved        bl: '~0.9.4',
+34 silly install resolved        boganipsum: '~0.1.0',
+34 silly install resolved        chalk: '~0.5.1',
+34 silly install resolved        'colors-tmpl': '~1.0.0',
+34 silly install resolved        'combined-stream': '~0.0.7',
+34 silly install resolved        'concat-stream': '~1.4.7',
+34 silly install resolved        duplexer: '~0.1.1',
+34 silly install resolved        hyperquest: '~1.0.1',
+34 silly install resolved        rimraf: '~2.2.8',
+34 silly install resolved        through: '~2.3.6',
+34 silly install resolved        through2: '~0.6.3',
+34 silly install resolved        'through2-map': '~1.4.0',
+34 silly install resolved        'workshopper-adventure': '^4.3.1',
+34 silly install resolved        'workshopper-exercise': '~2.5.3',
+34 silly install resolved        'workshopper-wrappedexec': '~0.1.1' },
+34 silly install resolved     devDependencies: { 'workshopper-adventure-test': '~1.0.0' },
+34 silly install resolved     scripts: { test: 'workshopper-adventure-test' },
+34 silly install resolved     bin: { learnyounode: './bin/learnyounode' },
+34 silly install resolved     main: './learnyounode.js',
+34 silly install resolved     preferGlobal: true,
+34 silly install resolved     gitHead: 'b9fb378743e22c7686512885c898cb6ffa55f1aa',
+34 silly install resolved     bugs: { url: 'https://github.com/rvagg/learnyounode/issues' },
+34 silly install resolved     homepage: 'https://github.com/rvagg/learnyounode',
+34 silly install resolved     _id: 'learnyounode@3.1.2',
+34 silly install resolved     _shasum: '8cc8539f596bb83f9c6d17d8d4587b73f276b9a8',
+34 silly install resolved     _from: 'learnyounode@*',
+34 silly install resolved     _npmVersion: '2.14.7',
+34 silly install resolved     _nodeVersion: '4.2.1',
+34 silly install resolved     _npmUser: { name: 'leichtgewicht', email: 'martin.heidegger@gmail.com' },
+34 silly install resolved     dist:
+34 silly install resolved      { shasum: '8cc8539f596bb83f9c6d17d8d4587b73f276b9a8',
+34 silly install resolved        tarball: 'http://registry.npmjs.org/learnyounode/-/learnyounode-3.1.2.tgz' },
+34 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+34 silly install resolved     directories: {},
+34 silly install resolved     _resolved: 'https://registry.npmjs.org/learnyounode/-/learnyounode-3.1.2.tgz',
+34 silly install resolved     readme: 'ERROR: No README data found!' } ]
+35 info install learnyounode@3.1.2 into /Users/BuddySystem/.nvm/versions/node/v4.1.1/lib
+36 info installOne learnyounode@3.1.2
+37 verbose installOne of learnyounode to /Users/BuddySystem/.nvm/versions/node/v4.1.1/lib not in flight; installing
+38 verbose lock using /Users/BuddySystem/.npm/_locks/learnyounode-e7f0a286015a8a49.lock for /Users/BuddySystem/.nvm/versions/node/v4.1.1/lib/node_modules/learnyounode
+39 silly install write writing learnyounode 3.1.2 to /Users/BuddySystem/.nvm/versions/node/v4.1.1/lib/node_modules/learnyounode
+40 verbose unbuild lib/node_modules/learnyounode
+41 info preuninstall learnyounode@3.1.2
+42 info uninstall learnyounode@3.1.2
+43 verbose unbuild rmStuff learnyounode@3.1.2 from /Users/BuddySystem/.nvm/versions/node/v4.1.1/lib/node_modules
+44 silly gentlyRm /Users/BuddySystem/.nvm/versions/node/v4.1.1/bin/learnyounode is being gently removed
+45 silly gentlyRm verifying /Users/BuddySystem/.nvm/versions/node/v4.1.1 is an npm working directory
+46 silly gentlyRm containing path /Users/BuddySystem/.nvm/versions/node/v4.1.1 is under npm's control, in /Users/BuddySystem/.nvm/versions/node/v4.1.1
+47 silly gentlyRm deletion target /Users/BuddySystem/.nvm/versions/node/v4.1.1/bin/learnyounode is under /Users/BuddySystem/.nvm/versions/node/v4.1.1
+48 verbose gentlyRm vacuuming from /Users/BuddySystem/.nvm/versions/node/v4.1.1/bin/learnyounode up to /Users/BuddySystem/.nvm/versions/node/v4.1.1
+49 silly vacuum-fs removing /Users/BuddySystem/.nvm/versions/node/v4.1.1/bin/learnyounode
+50 silly vacuum-fs quitting because other entries in /Users/BuddySystem/.nvm/versions/node/v4.1.1/bin
+51 info postuninstall learnyounode@3.1.2
+52 silly gentlyRm /Users/BuddySystem/.nvm/versions/node/v4.1.1/lib/node_modules/learnyounode is being purged from base /Users/BuddySystem/.nvm/versions/node/v4.1.1
+53 verbose gentlyRm don't care about contents; nuking /Users/BuddySystem/.nvm/versions/node/v4.1.1/lib/node_modules/learnyounode
+54 silly vacuum-fs purging /Users/BuddySystem/.nvm/versions/node/v4.1.1/lib/node_modules/learnyounode
+55 verbose unlock done using /Users/BuddySystem/.npm/_locks/learnyounode-e7f0a286015a8a49.lock for /Users/BuddySystem/.nvm/versions/node/v4.1.1/lib/node_modules/learnyounode
+56 verbose stack Error: EACCES: permission denied, unlink '/Users/BuddySystem/.nvm/versions/node/v4.1.1/lib/node_modules/learnyounode/.jshintrc'
+56 verbose stack     at Error (native)
+57 verbose cwd /Users/BuddySystem/Documents/WDI/node/node-learnyounode-study
+58 error Darwin 14.5.0
+59 error argv "/Users/BuddySystem/.nvm/versions/node/v4.1.1/bin/node" "/Users/BuddySystem/.nvm/versions/node/v4.1.1/bin/npm" "install" "-g" "learnyounode"
+60 error node v4.1.1
+61 error npm  v2.14.4
+62 error path /Users/BuddySystem/.nvm/versions/node/v4.1.1/lib/node_modules/learnyounode/.jshintrc
+63 error code EACCES
+64 error errno -13
+65 error syscall unlink
+66 error Error: EACCES: permission denied, unlink '/Users/BuddySystem/.nvm/versions/node/v4.1.1/lib/node_modules/learnyounode/.jshintrc'
+66 error     at Error (native)
+66 error  { [Error: EACCES: permission denied, unlink '/Users/BuddySystem/.nvm/versions/node/v4.1.1/lib/node_modules/learnyounode/.jshintrc']
+66 error   errno: -13,
+66 error   code: 'EACCES',
+66 error   syscall: 'unlink',
+66 error   path: '/Users/BuddySystem/.nvm/versions/node/v4.1.1/lib/node_modules/learnyounode/.jshintrc' }
+67 error Please try running this command again as root/Administrator.
+68 verbose exit [ -13, true ]
+69 verbose unbuild lib/node_modules/learnyounode
+70 info preuninstall learnyounode@3.1.2
+71 info uninstall learnyounode@3.1.2
+72 verbose unbuild rmStuff learnyounode@3.1.2 from /Users/BuddySystem/.nvm/versions/node/v4.1.1/lib/node_modules
+73 silly gentlyRm /Users/BuddySystem/.nvm/versions/node/v4.1.1/bin/learnyounode is being gently removed
+74 silly gentlyRm verifying /Users/BuddySystem/.nvm/versions/node/v4.1.1 is an npm working directory
+75 silly gentlyRm containing path /Users/BuddySystem/.nvm/versions/node/v4.1.1 is under npm's control, in /Users/BuddySystem/.nvm/versions/node/v4.1.1
+76 silly gentlyRm deletion target /Users/BuddySystem/.nvm/versions/node/v4.1.1/bin/learnyounode is under /Users/BuddySystem/.nvm/versions/node/v4.1.1
+77 verbose gentlyRm vacuuming from /Users/BuddySystem/.nvm/versions/node/v4.1.1/bin/learnyounode up to /Users/BuddySystem/.nvm/versions/node/v4.1.1
+78 info postuninstall learnyounode@3.1.2
+79 silly gentlyRm /Users/BuddySystem/.nvm/versions/node/v4.1.1/lib/node_modules/learnyounode is being purged from base /Users/BuddySystem/.nvm/versions/node/v4.1.1
+80 verbose gentlyRm don't care about contents; nuking /Users/BuddySystem/.nvm/versions/node/v4.1.1/lib/node_modules/learnyounode
+81 silly vacuum-fs purging /Users/BuddySystem/.nvm/versions/node/v4.1.1/lib/node_modules/learnyounode
+82 error error rolling back Error: EACCES: permission denied, unlink '/Users/BuddySystem/.nvm/versions/node/v4.1.1/lib/node_modules/learnyounode/.jshintrc'
+82 error error rolling back     at Error (native)
+82 error error rolling back  { [Error: EACCES: permission denied, unlink '/Users/BuddySystem/.nvm/versions/node/v4.1.1/lib/node_modules/learnyounode/.jshintrc']
+82 error error rolling back   errno: -13,
+82 error error rolling back   code: 'EACCES',
+82 error error rolling back   syscall: 'unlink',
+82 error error rolling back   path: '/Users/BuddySystem/.nvm/versions/node/v4.1.1/lib/node_modules/learnyounode/.jshintrc' }
