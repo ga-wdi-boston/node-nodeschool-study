@@ -1,0 +1,23 @@
+{
+  "name": "@baz1389/how-to-npm",
+  "version": "1.0.4",
+  "description": "tutorial package for how to npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "baz1389",
+  "license": "MIT",
+  "repository": {
+    "url": ""
+  },
+  "dependencies": {
+    "@linclark/pkg": "^1.0.3"
+  },
+  "devDependencies": {}
+}
+
+
