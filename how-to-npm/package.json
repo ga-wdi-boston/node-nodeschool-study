@@ -1,0 +1,17 @@
+{
+  "name": "@resource11/how-to-npm",
+  "version": "1.0.1",
+  "description": "my_second_npm_pkg",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/resource11/node-learnyounode-study/tree/response/how-to-npm"
+  }
+}
