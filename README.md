@@ -76,19 +76,36 @@ You will need to create your own file structure in all directories except
 
 ## Deliverables
 
-You are required to push your changes frequently, based on the following
-schedule. Each evening, push your changes and open a new pull request against
-this repository. Your submissions will be checked for completeness, **not** for
-accuracy. That's what `learnyounode verify` is for.
+You are required to push your changes every day, based on the following
+schedule. Open a new pull request if you worked on a different branch. If you
+worked on the same branch, reopen your pull request if it was closed. Your
+submissions will be checked for completeness, **not** for accuracy. That's what
+`learnyounode verify` is for.
 
-| Workshop       | Due (`t + 0 === today`)       |
-| -------------- | ----------------------------- |
-| `learnyounode` | Exercises 00--06 due `t + 0`  |
-| `learnyounode` | Exercises 07--13 due `t + 4`  |
-| `how-to-npm`   | Exercises 00--04 due `t + 0`  |
-| `how-to-npm`   | Exercises 05--16 due `t + 4`  |
-| `expressworks` | Exercises 00--01 due `t + 4`  |
-| `expressworks` | Exercises 03--07 due `t + 11` |
+Some exercises will not result in changes inside the repository. If you complete
+a series of exercises and they do not result in a dirty working directory, no
+pull request is required.
+
+Certain exercises may have open issues as `node`, `npm`, and `express` change
+very rapidly. If you run into trouble, search workshop issues first. You can get
+a link to the workshop GitHub repositories from the nodeschool website.
+
+| Workshop       | Exercises                  | Due     |
+|----------------|----------------------------|---------|
+| `learnyounode` | Exercises 00–05            | `t + 0` |
+| `learnyounode` | Exercises 06–09            | `t + 1` |
+| `how-to-npm`   | Exercises 00–05            | `t + 0` |
+| `expressworks` | Exercises 00–01, 03, 05–07 | `t + 2` |
+
+Ranges are inclusive. Due dates are read as follows:
+
+-   `t + 0` means "today".
+-   `t + 1` means one business day from today.
+-   A "business day" is a day on which we meet as a cohort.
+
+Any additional exercises in each workshop without a listed due date in the above
+table are optional. You will not be assessed on any optional exercises, but you
+may have to complete them to continue on to other required exercises.
 
 ## Additional Resources
 
