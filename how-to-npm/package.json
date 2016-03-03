@@ -1,0 +1,16 @@
+{
+  "name": "@faetea/npm-how-to",
+  "version": "1.3.7",
+  "description": "my first npm projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "allie",
+  "repository": {
+    "type": "git",
+    "url": "README.md"
+  },
+  "license": "ISC",
+  "devDependencies": {}
+}
