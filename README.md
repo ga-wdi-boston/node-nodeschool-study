@@ -113,7 +113,6 @@ may have to complete them to continue on to other required exercises.
 -   [Node Documentation](https://nodejs.org/api/)
 -   [NPM Documentation](https://docs.npmjs.com)
 -   [Art of Node](https://github.com/maxogden/art-of-node)
--   [mongodbschool](http://mongodbschool.io)
 
 ## [License](LICENSE)
 
