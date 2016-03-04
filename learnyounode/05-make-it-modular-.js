@@ -1,12 +1,12 @@
 var fs = require('fs');
 var path = require('path');
 
-var givenPath = process.argv[2];
-var ext = process.argv[3];
+var mymodule = fs.readdir(givenPath, function (err, data) {
+  if (err) {
+    return callback(err); // early return
+  }
 
-fs.readdir(givenPath, function (err, data) {
   for (var i = 0; i < data.length; i++) {
-
     var just = path.extname(data[i]);
 
     if ('.'+ext === just) {
@@ -14,3 +14,7 @@ fs.readdir(givenPath, function (err, data) {
     }
   }
 });
+
+module.exports = function () {
+  mymodule
+}
