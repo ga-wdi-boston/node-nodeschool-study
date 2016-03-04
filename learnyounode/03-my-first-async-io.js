@@ -1,7 +1,7 @@
 var fs = require('fs'); // call filesystem operation [fs module]
 
-fs.readFile(process.argv[2], 'utf8', function(err, data){
-  console.log(data.split('\n').length - 1);
+fs.readFile(process.argv[2], 'utf8', function(err, contents){
+  console.log(contents.split('\n').length - 1);
 }); //readfile that return a buffer object
 
 /* #official solution
