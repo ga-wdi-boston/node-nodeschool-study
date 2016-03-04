@@ -1,10 +1,8 @@
+'use strict'
 
-function sumOfArray (e) {
-  var sum = 0;
-  for (var i = 2; i < e.length; i++) {
-    sum = sum + Number(e[i]);
-  };
-  console.log(sum);
+let sum = 0;
+for (let i = 2; i < process.argv.length; i++) {
+  sum += Number(process.argv[i]);
 };
 
-sumOfArray(process.argv);
+console.log(sum);
