@@ -1,13 +1,12 @@
 'use strict';
-let fs = require('fs');
 let path = require('path');
-let dir = process.argv[2];
-let type = "." + process.argv[3];
+let Pathfilter = require('./pathFilter.js');
+pathFilter(process.argv[2], process.argv[3], filter);
 
-fs.readdir(dir, function(err, files) {
+let filter = function(err, files, ext){
   files.forEach(function(file){
-    if (path.extname(file) === type){
+    if (path.extname(file) === ('.' + ext)){
       console.log(file);
     }
   });
-});
+}
