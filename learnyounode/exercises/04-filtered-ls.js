@@ -1,31 +1,12 @@
 'use strict'
 
 let fs = require('fs');
-// let path = require('path');
-//
-// function filter(dir, ext) {
-//   fs.readdir(dir, function(err, list) {
-//     let files = list.toString().split(',');
-//     for (let i = )
-//     console.log(files);
-//   })
-// }
-//
-// fs.readdir(list, function(err, list) {
-  // let files = list.toString();
-})
+let path = require('path');
 
-function fileList(list, ext) {
-  for (let i = 0; i < list.length; i++) {
-    if (list[i]).extname === ('.' + ext) {
-      list[i] = list[i]
-    } else {
-      list[i] = '';
+fs.readdir(process.argv[2], function(err, list) {
+  list.forEach(function(file) {
+    if(path.extname(file) === '.' + process.argv[3]) {
+      console.log(file)
     }
-  }
-
-  let list = list.string()
-  console.log(list);
-}
-
-fs.readdir(list, fileList());
+  })
+});
