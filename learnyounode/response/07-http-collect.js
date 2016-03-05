@@ -7,6 +7,7 @@ http.get(url, function (response) {
   response.pipe(concatStream(function (data) {
     console.log(data.length);
     console.log(data);
+    
   }));
 });
 
