@@ -38,7 +38,7 @@ var path = require('path');
 dirName = process.argv[2];
 fileExt = process.argv[3];
 
-fs.readdir(dirName, function filterList(err, list) {
+  fs.readdir(dirName, function filterList(err, list) {
   if (err) {
     console.log('error');
   };
