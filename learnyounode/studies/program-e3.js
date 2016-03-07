@@ -1,10 +1,10 @@
 'use strict'
 
 let fs = require('fs');
+let buf = undefined;
 
-let buf = fs.readFileSync(process.argv[2]);
-
-let str = buf.toString();
-// str.split('\n');
-
-console.log(str.split('\n').length-1);
+fs.readFile(process.argv[2], 'utf-8', function(err, data) {
+  buf = data;
+  let str = buf.toString();
+  console.log(str.split('\n').length-1);
+})

@@ -1,7 +1,10 @@
+'use strict'
 
-// console.log(+process.argv[2]);
-var sum = 0;
-for (var i = 2; i < +process.argv.length; i++) {
-  sum += +process.argv[i];
-}
-console.log(sum);
+let fs = require('fs');
+
+let buf = fs.readFileSync(process.argv[2]);
+
+let str = buf.toString();
+// str.split('\n');
+
+console.log(str.split('\n').length-1);
