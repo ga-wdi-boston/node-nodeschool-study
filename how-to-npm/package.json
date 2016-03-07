@@ -1,0 +1,17 @@
+{
+  "name": "practice-project",
+  "version": "1.0.0",
+  "description": "this is a practice in npm project creation ",
+  "main": "index.js",
+  "scripts": {
+    "test": "practice"
+  },
+  "keywords": [
+    "practice"
+  ],
+  "author": "kpie89",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
+}
