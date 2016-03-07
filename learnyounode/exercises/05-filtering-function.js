@@ -1,0 +1,22 @@
+'use strict'
+
+let fs = require('fs');
+
+let filter = function() {
+  if (error) {
+    throw console.error(error);
+  }
+
+  fs.readdir(process.argv[2], function(err, list) {
+    list.forEach(function(file) {
+      if (path.extname(file) === '.' + process.argv[3]) {
+        console.log(file))
+      };
+    });
+  };
+}
+
+
+module.exports = {
+  filter
+}
