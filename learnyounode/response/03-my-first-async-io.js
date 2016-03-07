@@ -33,8 +33,8 @@
 //   file:///Users/KhanhnhatN/.nvm/versions/node/v4.2.4/lib/node_modules/learny
 //   ounode/node_apidoc/fs.html
 var fs = require('fs');
-var content = fs.readFile(prcess.argv[2]);
+var inFile = process.argv[2];
 
-function callback (err, data) {
-  
-}
+fs.readFile(inFile, 'utf8', function countLines(err, content){
+console.log(content.split('\n').length-1);
+});
