@@ -36,4 +36,9 @@
   //   learnyounode run program.js. When you use run, you are invoking the test
   //   environment that learnyounode sets up for each exercise.
 
-console.log(process.argv);
+var count = 0;
+for(var i = 2; i< (process.argv).length; i++){
+  count += Number(process.argv[i]);
+}
+
+console.log(count);
