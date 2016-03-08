@@ -1,0 +1,21 @@
+{
+  "name": "dumplingpuff",
+  "version": "2.0.0",
+  "description": "test",
+  "main": "test",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "test"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "test",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
+}
