@@ -1,0 +1,23 @@
+{
+  "name": "@generalyao/dev-env",
+  "version": "1.2.3",
+  "description": "test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "yaoza",
+  "license": "ISC",
+  "keywords": [
+    "test",
+    "project"
+  ],
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com"
+  }
+}
