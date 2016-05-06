@@ -1,0 +1,21 @@
+{
+  "name": "rdelvallej",
+  "version": "1.0.0",
+  "description": "fake npm stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "yessir"
+  },
+  "repository": {
+    "type": "git",
+    "url": "testrepo"
+  },
+  "keywords": [
+    "testword"
+  ],
+  "author": "rob",
+  "license": "(ISC)",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
+}
