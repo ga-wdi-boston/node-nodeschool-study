@@ -1,0 +1,14 @@
+{
+  "name": "my-first-npm-project",
+  "version": "1.0.0",
+  "description": "woo first project woo",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.log(\"hello world\")"
+  },
+  "author": "Nick Garcia",
+  "license": "ISC",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
+}
