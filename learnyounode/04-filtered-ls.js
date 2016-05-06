@@ -10,3 +10,5 @@ fs.readdir(process.argv[2], function(err, files){
     }
   });
 });
+
+//not working yet, will try again tomorrow
