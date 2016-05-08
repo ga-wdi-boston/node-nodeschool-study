@@ -1,11 +1,4 @@
 'use strict';
 
-let fs = require('fs');
-let filter = require('./module.js')
-filter(process.argv[2], process.argv[3], function(err,data){
-  data.forEach(function(file) {
-    console.log(file);
-  });
-});
-
-//not working yet, will try again tomorrow
+let exerciseModule = require('./05-module.js');
+exerciseModule(process.argv[2], process.argv[3]);
