@@ -1,15 +1,11 @@
 'use strict';
 
 let fs = require('fs');
+const callback = require('./modularFunction.js')
 
+let ext = process.argv[3];
 
-fs.readdir(process.argv[2], function (err, list) {
-
-  let ext = process.argv[3].length;
-
-  list.forEach( function (file) {
-    if (file.slice(-ext) === process.argv[3]) {
-      console.log(file);
-    };
-  });
-});
+fs.readdir(process.argv[2], callback(process.argv[2], ext, function {
+  if (err) return console.error(err);
+  }
+));
