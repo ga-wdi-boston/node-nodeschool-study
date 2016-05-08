@@ -1,21 +1,17 @@
+var http = require('http');
+var bl = require('bl');
 
-var fs = require('fs');
+http.get(process.argv[2], function (response) {
+  response.pipe(bl(function (err, data) {
 
-module.exports = function (dirPath, fileExtension, callback) {
+    if (err)
+      return console.error(data);
 
-  fs.readdir(dirPath, function (err, list) {
-    if (err) return callback(err);
-
-    var response = [];
-    list.forEach(function (file) {
-      if (file.split('.').length > 1 && file.split('.').pop() === fileExtension)
-        response.push(file);
-    });
-
-    callback(null, response);
-  });
-};
-
+    data = data.toString();
+    console.log(data.length);
+    console.log(data);
+  }));
+});
 
 // module.exports = function(dir, ext, cb) {
 //   var fs = require('fs'),
