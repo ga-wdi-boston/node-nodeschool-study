@@ -1,0 +1,18 @@
+{
+  "name": "olliebuilds",
+  "version": "1.0.0",
+  "description": "sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "test me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "false"
+  },
+  "author": "OllieBuilds",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
+}
