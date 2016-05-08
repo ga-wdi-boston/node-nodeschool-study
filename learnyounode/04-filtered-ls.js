@@ -3,16 +3,21 @@
 let fs = require('fs');
 let path = require('path');
 
-let filename = process.argv[2];
+module.exports = function(filename, ext, callback) {
+let extension = "." + ext;
+  fs.readdir(filename, function(err, files) {
+    if (err) {
+      callback(err, null);
+    }
+    else {
+      let result = [];
+      files.forEach(function(entry) {
+        if (path.extname(entry) == extension) {
+          result.push(entry);
+        }
+      });
+      callback(null, result);
+    }
+  });
 
-let ext ="."+process.argv[3];
-
-fs.readdir(filename, function(err, list) {
-    if (!err) {
-      list.forEach( function(file, i){
-if (path.extname(file) === '.' + process.argv[3]) {
-console.log(file);
-}
-});
-}
-});
+};
