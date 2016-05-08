@@ -1,0 +1,15 @@
+{
+  "name": "@atache/npm-trash",
+  "version": "3.8.9",
+  "description": "Pooppy mcPooperStrien",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  },
+  "devDependencies": {}
+}

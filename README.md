@@ -2,6 +2,8 @@
 
 # Node & Express Self Study
 
+edit
+
 Node is JavaScript without the browser. Since you're already familiar with
 JavaScript, you shouldn't think of learning Node as learning a new language.
 Instead, you'll be learning a new set of APIs that use JavaScript to get work
