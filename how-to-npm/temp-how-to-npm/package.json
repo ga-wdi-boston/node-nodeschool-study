@@ -1,0 +1,27 @@
+{
+  "name": "test-project",
+  "version": "3.8.9",
+  "description": "Stuff an things",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Benjamski/how-to-npm-filler"
+  },
+  "keywords": [
+    "stuff",
+    "and",
+    "things"
+  ],
+  "author": "Ted Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/github.com/repo/issues"
+  },
+  "homepage": "https://github.com/github.com/repo#readme",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
+}
