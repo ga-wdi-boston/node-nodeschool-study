@@ -1,18 +1,5 @@
-[![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
-# Node & Express Self Study
-
-Node is JavaScript without the browser. Since you're already familiar with
-JavaScript, you shouldn't think of learning Node as learning a new language.
-Instead, you'll be learning a new set of APIs that use JavaScript to get work
-done outside the browser. That means you won't have access to browser APIs, like
-manipulating the DOM, but you will still have events and asynchronous
-capabilities. Additionally, Node provides excellent utilities for working with
-the file system, making web requests, and processing incoming web requests.
-
-[nodeschool](http://nodeschool.io/) is an excellent free and open-source
-resource for learning Node. You must complete the following workshops to become
-familiar with Node:
+# My updated README file
 
 -   [learnyounode](https://github.com/workshopper/learnyounode): Introduction to
     Node
@@ -20,14 +7,6 @@ familiar with Node:
 -   [expressworks](https://github.com/azat-co/expressworks): Introduction to
     Express
 
-The following workshops are optional:
-
--   [javascripting](https://github.com/sethvincent/javascripting): JavaScript
-    review (optional)
--   [scope-chains-closures](https://github.com/jesstelford/scope-chains-closures):
-    Scope, Chains, and Closures (optional, challenging)
--   [stream-adventure](https://github.com/substack/stream-adventure):
-    Introduction to Node streams (optional, challenging)
 
 Take a moment to browse the [nodeschool](http://nodeschool.io/) site. Make a
 note of any workshops you might want to take in the future. (Note: The term
