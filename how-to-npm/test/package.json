@@ -1,0 +1,17 @@
+{
+  "name": "matt",
+  "version": "1.0.0",
+  "description": "matt",
+  "main": "index.js",
+  "scripts": {
+    "test": "matt"
+  },
+  "keywords": [
+    "matt"
+  ],
+  "author": "matt",
+  "license": "ISC",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
+}
