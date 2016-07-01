@@ -11,6 +11,7 @@ fs.readdir(filePath, function(err, list) {
     fileCount = list.length;
     for(var i = 0; i < fileCount; i++){
 
+      // THIS IS ANOTHER SOLUTION WITHOUT EXTNAME
       // var splitFile = list[i].split('.');
       //
       // var stringCount = splitFile.length;
@@ -24,11 +25,7 @@ fs.readdir(filePath, function(err, list) {
       //   console.log(list[i]);
       // }
 
-      testPath = path.extname(list[i]);
-
-      if(testPath === extension){
-          console.log(list[i]);
-        } else if (list[i] === extension){
+      if(path.extname(list[i]) === '.' + extension){
           console.log(list[i]);
         }
       }
