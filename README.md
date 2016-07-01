@@ -118,3 +118,5 @@ may have to complete them to continue on to other required exercises.
 
 Source code distributed under the MIT license. Text and other assets copyright
 General Assembly, Inc., all rights reserved.
+
+This is Misha's edited version.
