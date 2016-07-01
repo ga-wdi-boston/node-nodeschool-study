@@ -1,4 +1,4 @@
-'use strict'
+ 'use strict'
 let fs = require('fs')
 file:///Users/Huey/.nvm/versions/node/v4.4.4/lib/node_modules/learnyounode
 /node_apidoc/path.html

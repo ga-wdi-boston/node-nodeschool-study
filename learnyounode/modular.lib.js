@@ -1,4 +1,4 @@
-module.exports = function(dir, valid_extension, cb){
+ module.exports = function(dir, valid_extension, cb){
   require('fs').readdir(dir, function(e, files){
     valid_files = []
     if(e) return cb(e)
