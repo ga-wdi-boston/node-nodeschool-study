@@ -15,21 +15,24 @@
 // must use asynchronous I/O.
 
 
+'use strict';
 
-var fs = require('fs')
-var file = process.argv[2]
-var ext = process.argv[3]
+let fs = require('fs')
+let file = process.argv[2]
 
- fs.readdir(file, function (err, contents) {
-   // fs.readFile(file, 'utf8', callback) can also be used
-   var files = contents
-   console.log(files)
-   var goodFiles = [];
-   for(i=0; i < files.length; i++){
-     console.log(file[i])
-     if(file[i].slice(-3,file[i.length]) === "txt"){
-       goodFiles.push(file[i]);
-     }
-   }
-   console.log(goodFiles)
- });
+
+fs.readdir(file, function(err, contents) {
+    if (err) {
+      console.log(err.stack);
+    }
+    let files = contents
+    //console.log(files)
+    let goodFiles = [];
+    files.forEach((file) => {
+      let ext = process.argv[3];
+      //ext.prepend(".");
+      if ((file.slice((file.length - (ext.length)), file.length) === ext) && file.includes(".")) {
+        console.log(file);
+      }
+    })
+});
