@@ -1,5 +1,5 @@
-how-to-npm
+expressworks
 =============
 
-Doing the [how-to-npm](https://github.com/npm/how-to-npm)
+Doing the [expressworks](https://github.com/azat-co/expressworks)
 workshop, a part of [nodeschool](http://nodeschool.io/).
