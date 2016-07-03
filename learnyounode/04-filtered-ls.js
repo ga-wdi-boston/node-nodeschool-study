@@ -36,3 +36,6 @@ fs.readdir(file, function(err, contents) {
       }
     })
 });
+
+
+module.exports =  {};
