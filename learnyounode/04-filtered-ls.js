@@ -1,6 +1,7 @@
 'use strict';
 
 var fs = require("fs");
+var path = require("path");
 
 // let junk = fs.readdir((process.argv[2]), function (err, data) {
 //     if (err) return console.error(err);
@@ -20,9 +21,19 @@ var fs = require("fs");
 // });
 
 
-fs.readdir(process.argv[2], function (err, path.extname("txt")) {
+// fs.readdir(process.argv[2], function (err, path.extname("txt")) {
+//     if (err) return console.error(err);
+//     console.log(list)
+// });
+
+
+fs.readdir(process.argv[2], function (err, list) {
     if (err) return console.error(err);
-    console.log(list)
+    for (let i = 0; i < list.length; i++) {
+      if (list[i].endsWith("."+(process.argv[3]))) {
+        console.log(list[i]);
+      }
+    }
 });
 
 // .extname('txt')
