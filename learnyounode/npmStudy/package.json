@@ -1,0 +1,17 @@
+{
+  "name": "exit",
+  "version": "1.0.0",
+  "description": "studyProject",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "esther",
+  "license": "ISC",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
+}
