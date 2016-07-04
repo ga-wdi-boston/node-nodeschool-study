@@ -1,5 +1,5 @@
 'use strict'
-var fs = require('fs');
+let fs = require('fs');
 
 
 let buf = fs.readFileSync(process.argv[2]);
