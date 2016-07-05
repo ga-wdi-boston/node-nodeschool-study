@@ -9,7 +9,13 @@
 var fs = require('fs');
 var path = require('path');
 
-module.exports = function (directoryName, extension, callBack) {
-  var resultArray = fs.readdir(directoryName, callBack);
-  return resultArray;
+module.exports = function (filePath, extension, callBack) {
+  fs.readdir(filePath, (err, list) =>{
+    if(err){
+      return callBack(err);
+    } else {
+      var resultArray = list.filter(file => path.extname(file) === '.' + extension);
+      return callBack(null, resultArray);
+    }
+  });
 };
