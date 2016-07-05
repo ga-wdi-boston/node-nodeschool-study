@@ -1,0 +1,24 @@
+{
+  "name": "erin",
+  "version": "1.0.0",
+  "description": "file",
+  "main": "index.js",
+  "scripts": {
+    "test": "hi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node-nodeschool-study"
+  },
+  "keywords": [
+    "nodeschool",
+    "npm",
+    "node",
+    "express"
+  ],
+  "author": "erin sullivan",
+  "license": "ISC",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
+}
