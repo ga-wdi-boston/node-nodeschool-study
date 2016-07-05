@@ -2,8 +2,6 @@
 
 const fs = require('fs');
 
-let reader = (file) => {
-  return fs.readFileSync(file).toString().split('\n').length - 1
-}
+let text = fs.readFileSync(process.argv[2]);
 
-reader(process.argv[2]);
+console.log(text.toString().split('\n').length - 1)
