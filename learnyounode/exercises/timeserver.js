@@ -1,29 +1,38 @@
-var http = require('http');
+var net = require('net');
 
-var urls = [ process.argv[2], process.argv[3], process.argv[4] ]
+var portNumber = process.argv[2];
 
-var allData = ['', '', ''];
+function connectionListener (socket) {
+  var date = new Date();
+  console.log(date.getHours());
 
-var resultsReturned = 0;
+  var hour = String(date.getHours());
+  var minutes = String(date.getMinutes());
+  var year = String(date.getFullYear());
+  var month = String(date.getMonth() + 1);
+  var date = String(date.getDate());
 
-function appendResults (data){
-  allData[resultsReturned] += data.toString();
-}
-
-function printResults(){
-  resultsReturned += 1;
-  if(resultsReturned === 3){
-    console.log(allData[0]);
-    console.log(allData[1]);
-    console.log(allData[2]);
-  } else {
-    http.get(urls[resultsReturned], callback);
+  if(month < 10){
+    month = '0' + month;
   }
+
+  if(date < 10){
+    date = '0' + date;
+  }
+
+  if(hour < 10){
+    hour = '0' + hour;
+  }
+
+  if(minutes < 10){
+    minutes = '0' + minutes;
+  }
+
+  var data = year + '-' + month + '-' + date + ' ' + hour + ':' + minutes + '\n';
+
+  socket.write(data);
+  socket.end();
 };
 
-function callback (response){
-  response.on('data', appendResults);
-  response.on('end', printResults);
-};
-
-http.get(urls[0], callback);
+var server = net.createServer(connectionListener);
+server.listen(portNumber);
