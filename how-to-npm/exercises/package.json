@@ -1,0 +1,21 @@
+{
+  "name": "myfirstpackage",
+  "version": "1.0.1",
+  "description": "firstpackage",
+  "main": "index.js",
+  "scripts": {
+    "test": "helloworld"
+  },
+  "repository": {
+    "type": "git",
+    "url": "master"
+  },
+  "keywords": [
+    "first"
+  ],
+  "author": "mishaherscu",
+  "license": "ISC",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
+}
