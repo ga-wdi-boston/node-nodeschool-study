@@ -1,0 +1,135 @@
+CHALLENGE 00:
+
+how-to-npm skip
+
+CHALLENGE 01:
+
+mkdir npm-files
+cd npm study
+
+CHALLENGE 02:
+
+npm whoami
+npm adduser
+USERNAME: shkherad
+PW: XXXXXXXXX
+email: shkherad@bu.edu
+
+CHALLENGE 03:
+
+npm init --scope=shkherad
+
+(fill in all the information..)
+
+{
+  "name": "shireen-file",
+  "version": "1.0.0",
+  "description": "how to npm practice",
+  "main": "npm-files",
+  "scripts": {
+    "test": "console.log('start')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "shkherad"
+  },
+  "keywords": [
+    "practice"
+  ],
+  "author": "Shireen Kheradpey",
+  "license": "ISC"
+}
+
+CHALLENGE 04:
+
+npm install @linclark/pkg
+
+
+CHALLENGE 05:
+
+npm ls
+
+CHALLENGE 06:
+
+{
+  "name": "shireen-file",
+  "version": "1.0.0",
+  "description": "how to npm practice",
+  "main": "npm-files",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "shkherad"
+  },
+  "keywords": [
+    "practice"
+  ],
+  "author": "Shireen Kheradpey",
+  "license": "ISC"
+}
+
+CHALLENGE 07:
+
+{
+  "name": "shireen-file",
+  "version": "1.0.0",
+  "description": "how to npm practice",
+  "main": "npm-files",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/shkherad"
+  },
+  "keywords": [
+    "practice"
+  ],
+  "author": "Shireen Kheradpey",
+  "license": "ISC"
+}
+
+CHALLENGE 08:
+
+npm publish
+
+CHALLENGE 09:
+
+{
+  "name": "shireen-file",
+  "version": "1.0.1",
+  "description": "how to npm practice",
+  "main": "npm-files",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/shkherad"
+  },
+  "keywords": [
+    "practice"
+  ],
+  "author": "Shireen Kheradpey",
+  "license": "ISC"
+}
+
+CHALLENGE 10:
+
+npm publish
+
+CHALLENGE 11:
+
+npm dist-tag add <pkg>@<version>
+
+
+CHALLENGE 12:
+
+npm dist-tag rm <pkg> <tag>
+
+CHALLNGE 13:
+
+`how-to-npm verify PKG` where `PKG`
+is the name of the package that is out of date.
