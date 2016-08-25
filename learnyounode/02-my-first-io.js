@@ -18,7 +18,7 @@ var fs = require('fs');
  var newFile = fs.readFileSync(process.argv[2]).toString().split('\n').length;
 
 
- // Note that the test file does not have a newline character ('\n') at the end of the last line, so using this method you'll end up with an array that has one more element than the number of newlines.  
+ // Note that the test file does not have a newline character ('\n') at the end of the last line, so using this method you'll end up with an array that has one more element than the number of newlines.
 
 console.log(--newFile);
 
