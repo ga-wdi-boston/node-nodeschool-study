@@ -1,4 +1,4 @@
-'use strict';
+var arg = process.argv;
 
 // console.log(process.argv);
 
@@ -7,9 +7,9 @@
 // input, 6 numbers
 // node learnyounode/01-baby-steps.js 1 2 3 4 5 6 7 8 9 10
 
-let result = 0;
+var result = 0;
      // starts at 3rd element because first is node and second is path
-     for (let i = 2; i < process.argv.length; i++)
-       result += Number(process.argv[i]);
+     for (var i = 2; i < arg.length; i++)
+       result += Number(arg[i]);
 
      console.log(result);
