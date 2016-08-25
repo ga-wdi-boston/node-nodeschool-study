@@ -16,5 +16,8 @@
     "\"https://github.com/npm/npm.git\""
   ],
   "author": "}",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
 }
