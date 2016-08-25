@@ -19,5 +19,5 @@ var newFile = fs.readFile(process.argv[2], function(err, data){
 });
 
 
-// ~/wdi/study/node-nodeschool-study (study)$ learnyounode run learnyounode/03-my-first-async-io.js 
+// ~/wdi/study/node-nodeschool-study (study)$ learnyounode run learnyounode/03-my-first-async-io.js
 // 20
