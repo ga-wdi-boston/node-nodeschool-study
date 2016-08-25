@@ -7,14 +7,25 @@
 //  of characters received from the server. The second line should contain the
 //  complete String of characters sent by the server.
 
+// require http and concat module
+// installed
 var http = require('http');
 concat = require('concat-stream');
 
+
+// http request
+// give it response stream to callback function
 http.get(process.argv[2], function(response){
+  // set it to utf8
   response.setEncoding('utf8');
+  // if error
   response.on('error', function(err) {
     return console.error(err);
   });
+
+  //function to pass in
+  // takes buffer as argument
+  // length is logged out as well as content
   var concatBuffer = concat(function(buffer) {
     console.log(buffer.length);
     console.log(buffer);
