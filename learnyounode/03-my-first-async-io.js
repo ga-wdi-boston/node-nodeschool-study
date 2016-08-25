@@ -1,12 +1,21 @@
-
 var fs = require('fs');
+var file = process.argv[2];
 
-function callback (err, data) {
-  if(err){
-    return data.toString().split('\n').length;
-    console.log(data.toString().split('\n').length);
-  }
-}
+fs.readFile(file, function (err, contents) {
+  // fs.readFile(file, 'utf8', callback) can also be used
+  var lines = contents.toString().split('\n').length - 1;
+  console.log(lines);
+});
 
-
-fs.readFile(utf8, callback(err, utf8));
+// 'use strict';
+//
+// let fs = require('fs');
+//
+// fs.readFile(process.argv[2], (err, data) => {
+//   if (err) {
+//     console.error(error);
+//   }else {
+//     // return data.toString().split('\n').length;
+//     console.log(data.toString().split('\n').length - 1);
+//   }
+// });
