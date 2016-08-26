@@ -1,5 +1,4 @@
 var express = require('express');
-var bodyParser = require('body-parser');
 var app = express();
 
 
@@ -7,9 +6,7 @@ var app = express();
 var port = process.argv[2];
 var file = process.argv[3];
 
-app.use(bodyParser.urlencoded({extended: false}));
-app.post('/form', function(request, result) {
-  result.send(request.body.str.split('').reverse().join(''));
-});
+app.use(require('stylus').middleware(file || 'public'));
+app.use(express.static(file || 'public'));
 
 app.listen(port || 3000);
