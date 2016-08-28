@@ -1,0 +1,23 @@
+{
+  "name": "package.json",
+  "version": "1.0.1",
+  "description": "test",
+  "main": "something",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "{ \"type\" : \"git\""
+  },
+  "keywords": [
+    "\"url\"",
+    ":",
+    "\"https://github.com/npm/npm.git\""
+  ],
+  "author": "}",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
+}
