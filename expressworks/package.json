@@ -1,0 +1,16 @@
+{
+  "name": "expressworks",
+  "version": "1.0.0",
+  "main": "01-hello-world.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.11.2",
+    "jade": "^1.11.0",
+    "stylus": "^0.54.5"
+  }
+}
