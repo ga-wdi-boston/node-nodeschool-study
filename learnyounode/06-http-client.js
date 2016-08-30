@@ -1,11 +1,9 @@
-var http = require('http');
+'use strict'
 
-http.get(process.argv[2], function(result) {
-    result.setEncoding('utf8');
-    result.on('error', function (err) {
-        console.error(err);
-    });
-    result.on('data', function (chunk) {
-        console.log(chunk);
-    });
-});
+const http = require('http');
+
+http.get(process.argv[2], function(response) {
+  response.setEncoding('utf8');
+  response.on('data', console.log);
+  response.on('error', console.error);
+}).on('error', console.error);
