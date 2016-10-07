@@ -1,5 +1,3 @@
-
-
 # Node & Express Self Study
 
 ## kopiusmaximus - study notes
