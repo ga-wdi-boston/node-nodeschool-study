@@ -1,16 +1,19 @@
-'use strict';
+  'use strict';
 
-let fs = require('fs');
+  let fs = require('fs');
 
-var path = require('path')
+  let path = require('path');
 
-var folder = process.argv[2]
+  let folder = process.argv[2];
 
-fs.readdir(folder, function (err, data) {
-  if (err) {
-    return console.log(err);
-  }
-  data.for
+  fs.readdir(folder, function(err, data) {
+    if (err) {
+      return console.log(err);
+    } else {
+    data.forEach(function(filename) {
+      if (path.extname(filename) === "." + process.argv[3]) {
+        console.log(filename);
 
-/// something
-});
+      }
+    });
+  }});
