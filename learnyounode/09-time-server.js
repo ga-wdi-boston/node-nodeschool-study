@@ -15,23 +15,26 @@
 
 var net = require('net');
 
+var zeroFill = function(i) {
+  if (i < 10) {
+    return '0' + i;
+  }
+  return i;
+
+  // shorter
+  // return (i < 10 ? '0' : '') + i  
+};
+
+var now = function() {
+  var d = new Date();
+  return d.getFullYear() + '-' +  
+    zeroFill(d.getMonth() + 1) + '-' +  
+    zeroFill(d.getDate()) + ' ' +  
+    zeroFill(d.getHours()) + ':' +  
+    zeroFill(d.getMinutes()); 
+};
+
 var server = net.createServer(function (socket) {  
-  var now = new Date();
-
-  var dateElements = [now.getFullYear(), (now.getMonth() + 1), now.getDate(), now.getHours(), now.getMinutes()];
-
-  var dateZeroFilled = dateElements.map(function(el, i) {
-    if (el < 10) {
-      return '0' + el;
-    } 
-    return el;
-  });
-
-  var nowDate = dateZeroFilled.slice(0, 3);
-  var nowTime = dateZeroFilled.slice(3);
-
-  now = nowDate.join('-') + ' ' + nowTime.join(':');
-
-  socket.end(now + '\n');
+  socket.end(now() + '\n');
 });
 server.listen(process.argv[2]);
