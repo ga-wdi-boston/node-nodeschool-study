@@ -1,0 +1,14 @@
+{
+  "name": "@kopiusmaximus/development",
+  "version": "1.0.0",
+  "description": "how-to-npm-start-a-project",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.log('test command')"
+  },
+  "author": "kopiusmaximus",
+  "license": "ISC",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
+}
