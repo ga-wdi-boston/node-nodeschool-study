@@ -1,0 +1,17 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "how-to-npm-guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "1+1"
+  },
+  "keywords": [
+    "how-to-npm"
+  ],
+  "author": "daniel j ley",
+  "license": "ISC",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
+}

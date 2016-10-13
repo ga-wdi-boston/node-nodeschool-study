@@ -1,0 +1,19 @@
+{
+  "name": "expressworks",
+  "version": "1.0.0",
+  "description": "hello-world",
+  "main": "helloworld.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "1+2"
+  },
+  "keywords": [
+    "hello-world"
+  ],
+  "author": "daniel j ley",
+  "license": "ISC"
+}
