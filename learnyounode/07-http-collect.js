@@ -24,10 +24,4 @@ http.get(url, function(res) {
     console.log(data.length);
     console.log(data.toString());
   }));
-
-
-  // for each chunk of data, console.log that chunk
-  // res.on('data', function(chunk) {
-  //   console.log(chunk);
-  // });
 });
