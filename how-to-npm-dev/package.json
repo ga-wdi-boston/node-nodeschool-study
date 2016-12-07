@@ -1,0 +1,18 @@
+{
+  "name": "@joaufi/how-to-npm-dev",
+  "version": "1.0.0",
+  "description": "HOW TO NPM BBY",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "KILL",
+    "ME"
+  ],
+  "author": "ur mom",
+  "license": "ISC",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
+}
