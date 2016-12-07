@@ -22,10 +22,15 @@ var path = require('path');
 var dir = process.argv[2];
 var ext = "." + process.argv[3];
 
-fs.readdir(dir, function (err, data) {
-  data.forEach(function (file_name) {
-    if (path.extname(file_name) === ext) {
-      console.log(file_name);
+module.exports = function (dir, ext, callback) {
+  fs.readdir(dir, function (err, data) {
+    if (err) {
+      return callback(err);
     }
+    data = data.filter(function (file) {
+      ext = ext + '.';
+      return path.extname(file) ===  ext;
+    });
+    callback(null, data);
   });
-});
+};
