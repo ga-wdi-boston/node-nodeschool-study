@@ -1,0 +1,21 @@
+{
+  "name": "npm-node",
+  "version": "1.0.0",
+  "description": "npm stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "sujkid"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "suja",
+  "license": "UNLICENCED",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
+}
