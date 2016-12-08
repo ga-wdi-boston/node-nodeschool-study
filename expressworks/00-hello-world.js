@@ -6,10 +6,10 @@
 // Run $ killall node  before verifying exercises (in your terminal on Mac OS X)
 // to end any previous processes.
 
-var express = require('express')
+var express = require('express');
 
-var app = express()
+var app = express();
 app.get('/home', function(req, res) {
-  res.end('Hello World!')
+  res.end('Hello World!');
 });
 app.listen(process.argv[2]);
