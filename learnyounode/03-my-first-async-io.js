@@ -1,5 +1,17 @@
+
 var fs = require('fs');
 var input = process.argv[2];
-var str = fs.readFile(input).toString();
-var lineCount = str.split("\n").length;
-console.log(lineCount - 1);
+var lineCount;
+
+function countLines(callback) {
+	fs.readFile(input, 'utf8', function doneCounting(err, contents) {
+		lineCount = contents.split("\n").length - 1;
+		callback();
+	})
+};
+
+function logNumber(){
+	console.log(lineCount);
+};
+
+countLines(logNumber);
