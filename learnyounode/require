@@ -1,0 +1,8 @@
+'use strict'
+let fs = require('fs');
+
+let filePath = process.argv;
+//console.log(filePath[2]);
+
+let file = fs.readFileSync('/var/folders/0l/vskmw3jx7b7g_gb9qrnjfx3h0000gn/T/_learnyounode_39092.txt');
+console.log(file);
