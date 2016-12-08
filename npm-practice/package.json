@@ -1,0 +1,25 @@
+{
+  "name": "caleb",
+  "version": "1.0.0",
+  "description": "Test project.",
+  "main": "how-to-npm verify",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "caleb",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/coffeeisamazing/node-nodeschool-study.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "bugs": {
+    "url": "https://github.com/coffeeisamazing/node-nodeschool-study/issues"
+  },
+  "homepage": "https://github.com/coffeeisamazing/node-nodeschool-study#readme",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
+}
