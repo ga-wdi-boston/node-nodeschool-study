@@ -1,0 +1,14 @@
+{
+  "name": "newproj",
+  "version": "1.0.0",
+  "description": "a test proj",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "ioncrash",
+  "license": "ISC",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
+}
