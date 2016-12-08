@@ -1,0 +1,25 @@
+{
+  "name": "callmelifeproject",
+  "version": "1.0.0",
+  "description": "A project by callmelife",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcallmelife"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/callmelife/node-nodeschool-study.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "callmelife",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/callmelife/node-nodeschool-study/issues"
+  },
+  "homepage": "https://github.com/callmelife/node-nodeschool-study#readme",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
+}
