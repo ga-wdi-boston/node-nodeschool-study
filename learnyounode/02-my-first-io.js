@@ -1,4 +1,4 @@
-let fs = require('fs');
+const fs = require('fs');
 let file = process.argv[2];
 
 
