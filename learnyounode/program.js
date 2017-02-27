@@ -1,9 +1,17 @@
-let data = process.argv;
 
-let result = 0;
+var module = require('mymodule.js');
+var first = process.argv[2];
+var second = '.' + process.argv[3];
+// console.log(second)
 
-for (var i = 2; i < data.length; i++) {
-  result += Number(data[i]);
-}
+fs.readdir(first, (err, data) => {
+  var list = data;
+  // console.log(list)
+  list.forEach(function(word) {
+    if (word.includes(second)) {
+      console.log(word);
+    }
 
-console.log(result)
+  });
+
+});
