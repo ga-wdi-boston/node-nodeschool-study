@@ -1,7 +1,9 @@
-var fs = require('fs');
-var file = process.argv[2];
+var fs = require('fs')
+var path = require('path')
 
-fs.readFile(file, function (err, contents){
-  var lines = contents.toString().split('\n').length - 1;
-  console.log(lines);
+fs.readdir(process.argv[2], function (err, list) {
+  list.forEach(function (file) {
+    if (path.extname(file) === '.' + process.argv[3])
+      console.log(file);
+  });
 });
