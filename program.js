@@ -1,4 +1,6 @@
-module.exports = function (dir, filterStr, callback){
+var result = 0;
 
-  fs.readdir(dir, )
-}
+for (var i = 2; i < process.argv.length; i++);
+  result += Number(process.argv[i]);
+
+console.log(result);
