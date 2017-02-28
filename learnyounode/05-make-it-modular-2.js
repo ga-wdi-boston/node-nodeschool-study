@@ -1,8 +1,11 @@
 var fs = require('fs');
 
-let getFilteredFiles = function (dir, fileExt, cb) {
+
+
+module.exports = function (dir, fileExt, cb) {
 
     fs.readdir(dir, function(err, list){
+      if (err) return cb(err);
       let filteredFiles = []
     for (let i = 0; i < list.length; i++) {
       let file = list[i];
@@ -14,7 +17,3 @@ let getFilteredFiles = function (dir, fileExt, cb) {
     cb(null, filteredFiles);
   });
 };
-
-module.exports = {
-  getFilteredFiles
-}
