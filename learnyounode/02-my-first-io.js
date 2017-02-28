@@ -1,5 +1,5 @@
 const fs = require('fs');
-let file = process.argv[2];
+const file = process.argv[2];
 
 
 if (!file) console.log('The file name should be entered as a parameter');
