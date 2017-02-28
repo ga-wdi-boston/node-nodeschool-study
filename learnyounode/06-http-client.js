@@ -7,12 +7,7 @@ let callback = function (response) {
   response.on("data", (data) =>{
     console.log(data);
   });
-  response.on("error", (error) =>{
-    console.log(error);
-  });
-  response.on("end", (end) =>{
-    console.log(end);
-  });
+
 }
 
 http.get(process.argv[2], callback)
