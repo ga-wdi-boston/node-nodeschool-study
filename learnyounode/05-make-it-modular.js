@@ -1,9 +1,15 @@
 const mod = require ('./modular.js');
 
-const newTest = function (err, data) {
-  for (let i = 0; i < data.length; i++) {
-    console.log(data[i]);
-  }
-}
+let dirPath = process.argv[2];
+let extension = process.argv[3];
 
-mod.test(process.argv[2], process.argv[3], newTest);
+mod(dirPath, extension, (err, list) =>{
+  if (err) {
+    console.error(err);
+    return;
+  }
+
+  list.forEach((filename)=>{
+    console.log(filename);
+  });
+});
