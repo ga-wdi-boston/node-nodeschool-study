@@ -1,0 +1,24 @@
+{
+  "name": "node-nodeschool-study",
+  "version": "1.0.0",
+  "description": "### Learnyounode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akgoode/node-nodeschool-study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akgoode/node-nodeschool-study/issues"
+  },
+  "homepage": "https://github.com/akgoode/node-nodeschool-study#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.11.2",
+    "pug": "^2.0.0-beta11"
+  }
+}
