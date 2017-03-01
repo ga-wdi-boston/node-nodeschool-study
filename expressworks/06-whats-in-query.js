@@ -5,8 +5,9 @@ let express = require ('express')
 let app = express();
 
 
-app.get('/home', function(req, res){
-  res.end('Hello World!');
+app.get('/search', function(req, res){
+
+  res.send(req.query)
 });
 
 
