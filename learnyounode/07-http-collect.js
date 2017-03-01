@@ -4,13 +4,18 @@ const bl = require('bl')
 
 
 let callback = function (response) {
-  let a =[]
+  let data = ''
   response = response.setEncoding('utf8');
-  response.on("data", (data) =>{
-    a.push(data);
-    console.log(a)
+  response.on('error', console.error);
+  response.on('data', (chunk) => {
+    data += chunk;
   });
+  response.on('end', () => {
+    console.log(data.length)
+    console.log(data);
+  });
+  };
 
-}
 
-http.get(process.argv[2], callback)
+
+http.get(process.argv[2], callback);
