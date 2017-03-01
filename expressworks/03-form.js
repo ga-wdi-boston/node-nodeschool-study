@@ -1,7 +1,8 @@
 var express = require('express');
-var pug = require('pug');
 var bodyparser = require('body-parser');
-app.use(bodyparser.urlencoded({extended: false}));
 var app = express();
-app.set('views', path.join(__dirname, '/form'));
-app.set('view engine', 'pug');
+app.use(bodyparser.urlencoded({extended: true}));
+app.post('/form', function(req, res){
+  res.send(req.body.str.split('').reverse().join(''));
+});
+app.listen(process.argv[2]);

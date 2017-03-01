@@ -19,6 +19,7 @@
   "dependencies": {
     "body-parser": "^1.16.1",
     "express": "^4.11.2",
-    "pug": "^2.0.0-beta11"
+    "pug": "^2.0.0-beta11",
+    "stylus": "^0.54.5"
   }
 }
