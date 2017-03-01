@@ -1,7 +1,4 @@
 const http = require ('http');
-const bl = require('bl')
-
-
 
 let callback = function (response) {
   let data = ''
