@@ -1,0 +1,21 @@
+{
+  "name": "@squirtlesquad1988/test",
+  "version": "1.0.0",
+  "description": "sup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "poopdick",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "nope"
+  },
+  "keywords": [
+    "dildo"
+  ],
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
+}

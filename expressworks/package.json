@@ -1,0 +1,15 @@
+{
+  "name": "expressworks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "00-express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jade": "^1.11.0",
+    "pug": "^2.0.0-beta11"
+  }
+}
