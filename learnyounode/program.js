@@ -1,7 +1,12 @@
-var http = require('http');
-var bl = require('bl');
+const answer = require('./module');
 
-http.get(process.argv[2], function (response){
-  response.pipe(function())
+let data = process.argv[2];
+let extention = process.argv[3];
+const print = function(word){
+  console.log(word)
+}
 
-});
+answer(data, extention, print);
+
+
+// console.log(result);
