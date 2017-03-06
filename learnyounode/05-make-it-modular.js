@@ -1,12 +1,11 @@
-var mymodule = require('./mymodule');
-var dir = process.argv[2];
-var ext = process.argv[3];
+var mod = require('./mymodule.js');
 
-mymodule(dir, ext, function (err, list) {
-  if (err)
-    return console.error('There was an error:', err);
-
-  list.forEach(function (file) {
-    console.log(file);
-  });
+mod(process.argv[2], process.argv[3], function(err, data){
+    if (err){
+        throw err;
+    }else{
+        for (var i=0; i<data.length; i++){
+            console.log(data[i]);
+        }
+    }
 });
