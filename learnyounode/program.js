@@ -12,8 +12,15 @@
 //
 // console.log(result)
 
+// const fs = require('fs')
+//
+// const contents = fs.readFileSync(process.argv[2])
+// const lines = contents.toString().split('\n').length - 1
+// console.log(lines)
+
 const fs = require('fs')
 
-const contents = fs.readFileSync(process.argv[2])
-const lines = contents.toString().split('\n').length - 1
-console.log(lines)
+fs.readFile(process.argv[2], function (err, contents) {
+  let lines = contents.toString().split('\n').length - 1
+  console.log(lines)
+})
