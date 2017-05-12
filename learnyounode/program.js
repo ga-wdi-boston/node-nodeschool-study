@@ -18,9 +18,20 @@
 // const lines = contents.toString().split('\n').length - 1
 // console.log(lines)
 
-const fs = require('fs')
+// const fs = require('fs')
+//
+// fs.readFile(process.argv[2], function (err, contents) {
+//   let lines = contents.toString().split('\n').length - 1
+//   console.log(lines)
+// })
 
-fs.readFile(process.argv[2], function (err, contents) {
-  let lines = contents.toString().split('\n').length - 1
-  console.log(lines)
+
+const fs = require('fs')
+const path = require('path')
+
+fs.readdir(process.argv[2], function (err, list) {
+  list.forEach(function (file) {
+    if (path.extname(file) === '.' + process.argv[3])
+      console.log(file)
+  })
 })
