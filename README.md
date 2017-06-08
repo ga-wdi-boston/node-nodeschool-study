@@ -2,6 +2,20 @@
 
 # Node & Express Self Study
 
+IMPORTANT:
+
+I spent well over the 2 hour time limit on this assignment and I am sorry to
+say that I was unable to follow the instructions nor write the code. I
+tried to google online but found no useful tools to help me with this assignment.
+I'm not trying to slack off here but just honestly could not complete this one
+assignment. I've done all others in the WDI program.
+
+Thank you
+
+Conor
+
+
+
 Node is JavaScript without the browser. Since you're already familiar with
 JavaScript, you shouldn't think of learning Node as learning a new language.
 Instead, you'll be learning a new set of APIs that use JavaScript to get work
